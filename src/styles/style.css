@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+  /* colores */
+  --color-primario: #0770CC;
+  --color-secundario: #ff6600;
+  --color-terciario: #ffffff;
+  --color-fondo: #f8f8f8;
+  --color-texto: #2b2a29;
+  --color-indice: #d9d9d9;
+  --color-borde: rgba(43, 42, 41, 46%);
+  --color-placeholder: rgba(43, 42, 41, 70%);
+
+  /* fuentes */
+  --fuente-titulos: 'Roboto';
+  --fuente-contenido: 'Open Sans';
+  --margin-seccion: 20px;
+  
+  /* Tamaños de fuentes */
+  --size-banner: 3rem;
+  --fuente-grande: 2rem;
+  --fuente-normal: 1rem;
+  --fuente-pequena: 0.8rem;
+  --size-products: 1.5rem;
+
+  /* header */
+  --altura-header: 10.5vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: var(--fuente-titulos);
+}
+

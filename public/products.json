@@ -1,0 +1,37 @@
+[
+  {
+    "imagen": "https://www.appliancesdirect.co.uk/files/images/apd/category-pages/laundry/freestanding-wash-mach-cat-tile-min.png",
+    "href": "",
+    "titulo": "Estufa de gas doméstica",
+    "precio": 320000,
+    "desc": "Estufa de dos puestos con encendido automático y superficie de acero inoxidable."
+  },
+  {
+    "imagen": "https://api.lalicorera.com/storage/productos/licores/84948144-lucky-strike-daiquiri-nuevo.webp?t=1746832749000",
+    "href": "",
+    "titulo": "Cajetilla Lucky Strike",
+    "precio": 10000,
+    "desc": "Cajetilla de cigarrillos Lucky Strike original, sabor clásico y diseño compacto."
+  },
+  {
+    "imagen": "https://www.bloommart.co/cdn/shop/files/Encendedores-Cllipper-Sexy.png?v=1734470812&width=1080",
+    "href": "",
+    "titulo": "Paquete de clippers",
+    "precio": 15000,
+    "desc": "Set de encendedores Clipper recargables con diseños variados y resistentes."
+  },
+  {
+    "imagen": "https://www.whirlpool.com/is/image/content/dam/business-unit/whirlpoolv2/en-us/marketing-content/site-assets/page-content/oc-articles/range-vs-stove-vs-oven/opti/Range-vs-Stove-vs-Oven-1.jpg?fit=constrain&fmt=png-alpha&wid=2875",
+    "href": "",
+    "titulo": "Estufa eléctrica portátil",
+    "precio": 280000,
+    "desc": "Estufa eléctrica de bajo consumo ideal para espacios pequeños y cocinas modernas."
+  },
+  {
+    "imagen": "https://static.scientificamerican.com/sciam/cache/file/1DDFE633-2B85-468D-B28D05ADAE7D1AD8_source.jpg?w=1200",
+    "href": "",
+    "titulo": "Pila de libros antiguos",
+    "precio": 85000,
+    "desc": "Colección de libros usados en buen estado, ideal para decoración o lectura clásica."
+  }
+]

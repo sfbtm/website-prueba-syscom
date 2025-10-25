@@ -1,0 +1,38 @@
+.product-card{
+    height: 24rem;
+    width: 15rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    padding: 1rem;
+
+    border-radius: 10px;
+    box-shadow: 0 0 5px #00000050;
+}
+
+
+
+.product-card__img{
+    width: 15rem;
+    height: 15rem;
+    margin: 0 -1rem;
+}
+
+.product-card__titulo{
+    font-size: var(--fuente-normal);
+    text-decoration: none;
+    color: var(--color-texto);
+}
+
+.product-card__precio{
+    font-size: var(--size-products)
+}
+
+.product-card__desc{
+    height: 3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
