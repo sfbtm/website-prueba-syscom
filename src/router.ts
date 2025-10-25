@@ -1,10 +1,11 @@
+import { crearFooter } from "./components/footer/footer";
 import { crearHeader } from "./components/header/header";
 import { home } from "./views/home";
 
 
 // CONVIENE MUCHISIMO AÑADIR UN LOADER! 
 
-// tipo para cada funcion de ruta (Una funcion que devuelve un HTMLELement)
+// tipo para cada funcion de ruta (Una fucion asincronica, que devuelve un elemento HTML o una promesa)
 type RouteFn = () => HTMLElement | Promise<HTMLElement> 
 
 // objeto de rutas
@@ -25,6 +26,7 @@ const navigate = (event: MouseEvent) => {
 
 }
 
+// funcion encargada de renderizar la pagina entorno a la barra URL
 const handleLocation = async() => {
     // obtener la ruta de la barra URL
     const path = window.location.pathname;
@@ -38,6 +40,7 @@ const handleLocation = async() => {
     app.innerHTML = "";
     app.appendChild(crearHeader());
     app.appendChild( await routeFunction() );
+    app.appendChild(crearFooter())
 }
 
 // funcion que inicializa el enrutador y se pone en main.ts

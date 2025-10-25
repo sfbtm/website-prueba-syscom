@@ -9,6 +9,7 @@ export const home = async() => {
     const banner = document.createElement("div");
     const titulo = document.createElement("h1");
 
+    const seccionProductos = document.createElement("section")
     const subTitulo = document.createElement("h2");
 
     // contenedor donde van almacenados las cards de productos
@@ -18,6 +19,8 @@ export const home = async() => {
     main.classList.add("main__home");
     banner.classList.add("home__banner")
     titulo.classList.add("home__titulo");
+
+    seccionProductos.classList.add("home__productos");
     subTitulo.classList.add("home__subtitulo");
     productContainer.classList.add("home__container")
 
@@ -43,7 +46,8 @@ export const home = async() => {
 
     // emparentar elementos
     banner.append(titulo);
-    main.append(banner,subTitulo,productContainer)
+    seccionProductos.append(subTitulo,productContainer);
+    main.append(banner,seccionProductos);
 
     return main
 }
