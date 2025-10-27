@@ -1,0 +1,27 @@
+.profile__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 2rem;
+}
+
+.profile__container__img{
+    width: 10rem;
+    height: 10rem;
+
+    border-radius: 50%;
+}
+
+.profile__container__nombre{
+    font-size: var(--fuente-grande)
+}
+
+.profile__opciones-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}

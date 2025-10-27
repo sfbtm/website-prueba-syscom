@@ -1,0 +1,16 @@
+.cart__product-container{
+    width: 80rem;
+    min-height: 30rem;
+    margin: 1rem auto;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;    
+}
+
+.cart__titulo{
+    margin: 2rem;
+}
+

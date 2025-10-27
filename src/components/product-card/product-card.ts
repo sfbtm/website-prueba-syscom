@@ -6,6 +6,7 @@ type Product = {
     titulo: string;
     precio: number;
     desc: string;
+    id: number;
 }
 
 export const crearProductCard = (product: Product) => {
@@ -20,15 +21,18 @@ export const crearProductCard = (product: Product) => {
     // asignacion de clases
     card.classList.add("product-card");
     img.classList.add("product-card__img");
+
     titulo.classList.add("product-card__titulo");
+
     precio.classList.add("product-card__precio")
     desc.classList.add("product-card__desc");
 
     // insertar contenidos dentro de los elementos
     img.src = product.imagen;
 
-    titulo.href = product.href;
+    titulo.href = `/product/${product.id}`
     titulo.textContent = product.titulo;
+    titulo.dataset.link = "";
 
     precio.textContent = `$${product.precio}`
 

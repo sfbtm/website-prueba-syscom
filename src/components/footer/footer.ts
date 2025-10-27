@@ -1,5 +1,7 @@
 import "./footer.css"
 
+import logoWebsite from "../../assets/logo.png"
+
 export const crearFooter = () => {
 
     // crear elementos
@@ -11,6 +13,7 @@ export const crearFooter = () => {
 
     const propiedad = document.createElement("p");
 
+    // Los links deberían ser <a> pero por ahora son <li> estaticos
     const linkList = document.createElement("ul");
     const aboutUs = document.createElement("li");
     const carrito = document.createElement("li");
@@ -23,7 +26,7 @@ export const crearFooter = () => {
 
     // detalle de cada elemento
     //logo y nombre de logo
-    logo.src = "/src/assets/logo.png";
+    logo.src = logoWebsite;
     nombre.textContent = "MiTienda";
 
     //propiedad

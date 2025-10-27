@@ -33,7 +33,13 @@
 }
 
 .header__titulo{
-
+  color: #fff;
+  text-decoration: none;
   font-weight: bold;
   font-size: var(--fuente-normal);
+}
+
+.header__links{
+  color: #fff;
+  text-decoration: none;
 }

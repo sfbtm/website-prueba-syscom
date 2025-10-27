@@ -4,12 +4,13 @@ interface Product {
     titulo: string;
     precio: number;
     desc: string;
+    id: number;
 }
 
 export async function getProducts(): Promise<Product[]> {
 
     try {
-        const res = await fetch('/public/products.json');
+        const res = await fetch('/products.json');
 
         if (!res.ok){
             throw new Error(`Error de fetch. Status: ${res.status}`)
